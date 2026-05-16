@@ -6,8 +6,8 @@ Dashboard Power BI analyse des rikishi actifs au dernier banzuke
 Données chargées API à partir du site sumo-api.com
 
 ## Pages
-- **Banzuke** — vue globale des lutteurs actifs
-- **外国人力士** — analyse des lutteurs étrangers
+- **Banzuke** vue globale des lutteurs actifs
+- **Gaijin** analyse des lutteurs étrangers
 <!-- amélioration : page heya et rikishi dédiées pour recherche d'un lutteur en particulier -->
 
 ## Construction du DB
@@ -19,7 +19,5 @@ Données chargées API à partir du site sumo-api.com
 - Images : https://www.irasutoya.com/
 
 ## Modèle de données
-image modele etoile
 
 ## Aperçu
-images onglets
