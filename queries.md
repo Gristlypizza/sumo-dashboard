@@ -1,12 +1,10 @@
 # Requêtes Power Query M
-_https://docs.framasoft.org/fr/grav/markdown.html_
 ===================================================
 > **SRC_Rikishi** : source brute (table non chargée)
 > **STG_Rikishi** : staging : nettoyage + jointures sur id (table non chargée)
 > **Fact_Rikishi** : table finale chargée
-> Les sources des 3 tables dimension sont chargées depuis un fichier Excel (3 onglets)
-> Chemin à modifier dans la passe "Source" des dimension : 
->    = Excel.Workbook(File.Contents("D:\sauvegarde\Bibliotheque\Informatique\Data\_dataset & pf\Sumo\SumoRanking.xlsx"), null, true)
+> **Dimensions** : Les sources des 3 tables dimension sont chargées depuis un fichier Excel (3 onglets)
+> **Sources locales** : Chemin à modifier dans la passe "Source" des dimension
 ===================================================
 
 ## SRC_Rikishi 
@@ -32,11 +30,11 @@ in
 > **Source** : API REST sumo-api.com/api/rikishis (duplication SRC)
 > **Rôle** : nettoyage, transformation et jointures avec les 3 dimensions (Rank, Region, Heya)
 > **Etapes** : 
-    * Filtrage des rikishi sans rang (currentRank null)
-    * Simplification du rang afin de pouvoir l'utiliser en tant que clef sur la table Dim_Rank (ex: "Maegashira 10 East" > "M10")
-    * Jointure gauche avec Dim_Rank sur la clé Rank
-    * Nettoyage du shusshin pour jointure avec Dim_Region
-    * Jointure avec Dim_Heya sur le nom de l'écurie
+    - * Filtrage des rikishi sans rang (currentRank null)
+    - * Simplification du rang afin de pouvoir l'utiliser en tant que clef sur la table Dim_Rank (ex: "Maegashira 10 East" > "M10")
+    - * Jointure gauche avec Dim_Rank sur la clé Rank
+    - * Nettoyage du shusshin pour jointure avec Dim_Region
+    - * Jointure avec Dim_Heya sur le nom de l'écurie
 
 ```
 let
@@ -144,8 +142,9 @@ in
 ```
 
 ## Fact_Rikishi
-> **Source** : STG_Rikishi (référence)
-> **Rôle** : Table de faits finale chargée
+> 
+- **Source** : STG_Rikishi (référence)
+- **Rôle** : Table de faits finale chargée
 
 ```
 let
@@ -155,8 +154,9 @@ in
 ```
 
 ## Dim_Rank
-> **Source** : SumoRanking.xlsx Tableau1 (onglet rank)
-> **Rôle** : classement des rangs avec hierarchie complète, division, statut, numéro du rang pour trier de Yokozuna à Jonokuchi
+> 
+- **Source** : SumoRanking.xlsx Tableau1 (onglet rank)
+- **Rôle** : classement des rangs avec hierarchie complète, division, statut, numéro du rang pour trier de Yokozuna à Jonokuchi
 
 ```
 let
@@ -168,7 +168,7 @@ in
 ```
 
 ## Dim_Heya
-> **Source** : SumoRanking.xlsx — Tableau2 (onglet heya)
+> **Source** : SumoRanking.xlsx - Tableau2 (onglet heya)
 > **Rôle** : saisie manuelle d'infos complémentaires sur les écuries : ichimon, couleur mawashi HEX, année création
 
 ```
@@ -181,7 +181,7 @@ in
 ```
 
 ## Dim_Region
-> **Source** : SumoRanking.xlsx — onglet shusshin
+> **Source** : SumoRanking.xlsx - onglet shusshin
 > **Rôle** : saisie manuelle d'infos complémentaires sur les régions (shusshin pays/ville d'origine du lutteur), lat/long, "type" pour différencier gaijin et japonais
 
 ```
