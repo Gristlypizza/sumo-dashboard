@@ -1,4 +1,4 @@
-# 大相撲 — Sumo Dashboard
+# 大相撲 - Sumo Dashboard
 Power BI 大相撲 rikishi actifs au banzuke
 
 ## Introduction
@@ -21,6 +21,7 @@ Power BI 大相撲 rikishi actifs au banzuke
 ## Aperçu
 ### onglet Banzuke
 <img src="assets/banzuke.png" width="800" alt="onglet Banzuke"/>
+
 ### onglet Gaijin
 <img src="assets/gaijin.png" width="800" alt="onglet gaijin"/>
 
@@ -29,4 +30,4 @@ Power BI 大相撲 rikishi actifs au banzuke
 <img src="assets/etoile.png" width="800" alt="modèle en étoile"/>
 
 ### Dépendances (PowerQuery)
-<img src="assets/dependances" width="800" alt="dependances"/>
+<img src="assets/dependances.png" width="800" alt="dependances"/>
