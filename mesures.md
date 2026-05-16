@@ -3,9 +3,9 @@
 ---
 
 ##  Dim_Region
-> Colonne calculée IsGaijin pour calculer le nombre de lutteurs étrangers selon la colonne type du fichier Excel SumoRanking onglet shusshin importé
-> si la colonne [Pays] = "Japon" alors [type] = "Préfécture" sinon [type] "Pays" (donc pays étranger)
-> utilisée comme filtre dans les mesures ce qui évite de répeter "Pays" si besoin de changer la nomination
+- Colonne calculée IsGaijin pour calculer le nombre de lutteurs étrangers selon la colonne type du fichier Excel SumoRanking onglet shusshin importé
+- si la colonne [Pays] = "Japon" alors [type] = "Préfécture" sinon [type] "Pays" (donc pays étranger)
+- utilisée comme filtre dans les mesures ce qui évite de répeter "Pays" si besoin de changer la nomination
 ### IsGaijin
 ```
 IsGaijin = Dim_Region[type] = "Pays"
