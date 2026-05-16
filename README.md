@@ -2,8 +2,6 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Power%20BI-F2C811?style=for-the-badge&logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiZjQ5YmJhMzUtMmE0YS00ZTJiLTlhNTAtOWNkYTEwYTMyNWQzIiwidCI6IjE0NzFmYTExLTgyOGUtNDlkZS05ZWI0LWEyMWFhMWVmOGJhNiIsImMiOjh9&embedImagePlaceholder=true&pageName=46c148a3961c9c155537)
 
-[![API](https://img.shields.io/badge/API-sumo--api.com-blue?style=flat)](https://www.sumo-api.com)
-
 > Dashboard Power BI analysant les rikishi actifs au dernier banzuke  
 > Données chargées en direct via l'API REST [sumo-api.com](https://www.sumo-api.com)
 
