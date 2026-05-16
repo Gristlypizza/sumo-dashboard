@@ -16,7 +16,7 @@ Power BI 大相撲 rikishi actifs au banzuke
 - Modélisation : schéma en étoile
 - Calculs : DAX (AVERAGEX, CALCULATE, ALL, DIVIDE, MEDIAN, liens WEB ...)
 - Outil : Power BI Desktop
-- Images : https://www.irasutoya.com/
+- Images : https://www.irasutoya.com/ et https://www.sumo.or.jp/
 
 ## Modèle de données
 
