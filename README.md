@@ -20,13 +20,13 @@ Power BI 大相撲 rikishi actifs au banzuke
 
 ## Aperçu
 ### onglet Banzuke
-![page Banzuke](assets/banzuke.png)
+<img src="assets/banzuke" width="800" alt="onglet Banzuke"/>
 ### onglet Gaijin
-![page Gaijin](assets/gaijin.png)
+<img src="assets/gaijin" width="800" alt="onglet gaijin"/>
 
 ## Modèle de données
 ### Modèle en étoile
 <img src="assets/etoile.png" width="800" alt="modèle en étoile"/>
 
 ### Dépendances (PowerQuery)
-<img src="assets/dependances" width="800" alt="dépendances"/>
+<img src="assets/dependances" width="800" alt="dependances"/>
