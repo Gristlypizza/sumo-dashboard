@@ -1,4 +1,4 @@
-# 大相撲 — Sumo Dashboard
+# 大相撲 - Sumo Dashboard
 Power BI 大相撲 rikishi actifs au banzuke
 
 ## Introduction
@@ -16,8 +16,18 @@ Power BI 大相撲 rikishi actifs au banzuke
 - Modélisation : schéma en étoile
 - Calculs : DAX (AVERAGEX, CALCULATE, ALL, DIVIDE, MEDIAN, liens WEB ...)
 - Outil : Power BI Desktop
-- Images : https://www.irasutoya.com/ et https://www.sumo.or.jp/
-
-## Modèle de données
+- Images : https://www.irasutoya.com/
 
 ## Aperçu
+### onglet Banzuke
+<img src="assets/banzuke.png" width="800" alt="onglet Banzuke"/>
+
+### onglet Gaijin
+<img src="assets/gaijin.png" width="800" alt="onglet gaijin"/>
+
+## Modèle de données
+### Modèle en étoile
+<img src="assets/etoile.png" width="800" alt="modèle en étoile"/>
+
+### Dépendances (PowerQuery)
+<img src="assets/dependances.png" width="800" alt="dependances"/>
