@@ -10,7 +10,8 @@
 ---
 
 ## Introduction
-Projet personnel : Suite à l'obtention de la certification PL-300 je voulais créer un premier projet officiel. J'ai choisi le Sumo déjà par passion et aussi pour les données qui sont constamment en mouvement, riches et originales.  
+Suite à l'obtention de la certification PL-300 je voulais créer un premier projet personnel :
+J'ai choisi le Sumo à la fois par passion et aussi pour les données qui sont constamment en mouvement, riches et originales.  
 
 L'objectif était de construire un modèle propre en respectant au mieux les best practices : schéma en étoile, récupération de données par API, documenter chaque étape.
 
