@@ -2,8 +2,8 @@
 Power BI 大相撲 rikishi actifs au banzuke
 
 ## Introduction
-Dashboard Power BI analyse des rikishi actifs au dernier banzuke
-Données chargées API à partir du site sumo-api.com
+- Dashboard Power BI analyse des rikishi actifs au dernier banzuke
+- Données chargées API à partir du site sumo-api.com
 
 ## Pages
 - **Banzuke** vue globale des lutteurs actifs
