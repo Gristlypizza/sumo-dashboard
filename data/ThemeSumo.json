@@ -1,0 +1,45 @@
+{
+  "name": "Sumo Dashboard Theme",
+  "dataColors": ["#E60012", "#D7C9AA", "#F5F5F5", "#1C1C1C", "#333333", "#0F0F0F"],
+  "background": "#1C1C1C",
+  "foreground": "#F5F5F5",
+  "tableAccent": "#E60012",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "color": [
+          {
+            "solid": { "color": "#F5F5F5" }
+          }
+        ],
+        "fontSize": [
+          {
+            "value": 12
+          }
+        ],
+        "fontFamily": [
+          {
+            "value": "Segoe UI"
+          }
+        ]
+      },
+      "titleText": {
+        "color": [
+          {
+            "solid": { "color": "#E60012" }
+          }
+        ],
+        "fontSize": [
+          {
+            "value": 14
+          }
+        ],
+        "fontFamily": [
+          {
+            "value": "Segoe UI Semibold"
+          }
+        ]
+      }
+    }
+  }
+}
