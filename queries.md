@@ -4,7 +4,6 @@
 - **STG_Rikishi** : staging : nettoyage + jointures sur id (table non chargée)
 - **Fact_Rikishi** : table finale chargée
 - **Dimensions** : Les sources des 3 tables dimension sont chargées depuis un fichier Excel (3 onglets)
-- **Sources locales** : Chemin à modifier dans la passe "Source" des dimension
 ===================================================
 
 ## SRC_Rikishi 
