@@ -15,13 +15,13 @@ IsGaijin = Dim_Region[type] = "Pays"
 > Médiane plutôt que moyenne en raison des écarts importants sur les 600+ lutteurs de rangs débutants à professionnels
 
 ### Poids Med
-> Calcule la médiane de la taille
+> Calcule la médiane du poids
 ```
 Poids Med = MEDIAN(Fact_Rikishi[weight])
 ```
 
 ### Taille Med
-> Calcule la médiane du poids
+> Calcule la médiane de la taille
 ```
 Taille Med = MEDIAN(Fact_Rikishi[height])
 ```
