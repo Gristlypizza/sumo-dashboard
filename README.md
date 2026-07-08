@@ -42,10 +42,10 @@ Les données de référence (hiérarchie des rangs, écuries, origines géograph
 ## Aperçu
 
 ### 現役力士 - Rikishi actifs au banzuke
-<img src="assets/banzuke.png" width="800" alt="onglet Banzuke"/>
+<img src="assets/banzuk.png" width="800" alt="onglet Banzuke"/>
 
 ### 外国人力士 - Les étrangers dans le sumo
-<img src="assets/gaijin.png" width="800" alt="onglet Gaijin"/>
+<img src="assets/gaiji.png" width="800" alt="onglet Gaijin"/>
 
 ---
 
