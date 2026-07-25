@@ -1,5 +1,9 @@
 # 大相撲 - Sumo Dashboard
 
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power_Query-4C6EF5?style=for-the-badge&logo=powerquery&logoColor=white)
+
 > Dashboard Power BI analysant les rikishi actifs au dernier banzuke  
 > Données chargées en direct via l'API REST [sumo-api.com](https://www.sumo-api.com)
 
