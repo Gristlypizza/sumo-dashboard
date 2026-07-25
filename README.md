@@ -39,6 +39,10 @@ Les données de référence (hiérarchie des rangs, écuries, origines géograph
 
 ## Aperçu
 
+### Démo
+![DemoDB](assets/banzuke.gif)
+
+
 ### 現役力士 - Rikishi actifs au banzuke
 <img src="assets/banzuke2.png" width="800" alt="onglet Banzuke"/>
 
@@ -54,6 +58,9 @@ Les données de référence (hiérarchie des rangs, écuries, origines géograph
 
 ### Dépendances Power Query
 <img src="assets/dependances.png" width="800" alt="dépendances Power Query"/>
+
+### Hierarchie des rangs
+<img src="assets/classement-des-lutteurs.png" width="800" alt="Hierarchie rangs"/>
 
 ---
 
